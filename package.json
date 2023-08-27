@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "start:expo": "yarn workspace expo-app start",
-    "start:go": "cd packages/go-service && go run main.go",
+    "start:go": "cd packages/go-service && air",
     "start:docs": "yarn workspace react-docs start"
   }
 }

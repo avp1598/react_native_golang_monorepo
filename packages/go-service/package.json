@@ -1,3 +1,5 @@
 {
-  "private": true
+  "private": true,
+  "name": "go-service",
+  "version": "1.0.0"
 }
