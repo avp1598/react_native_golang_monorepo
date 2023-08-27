@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:expo": "pnpm --filter expo-app start",
+    "start:go": "cd packages/go-service && go run main.go",
+    "start:docs": "pnpm --filter react-docs start"
+  }
+}
